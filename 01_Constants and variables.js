@@ -19,7 +19,35 @@
 
 
 
-let isLoggedin;
-let conversionisLoggedin= Boolean(isLoggedin)
-console.log(conversionisLoggedin)
-console.log(typeof conversionisLoggedin)
+// let isLoggedin=false
+// let conversionisLoggedin= Number(isLoggedin)
+// console.log(conversionisLoggedin)
+// console.log(typeof conversionisLoggedin)
+
+
+
+// let x=3
+// const y=x++
+
+// console.log(y ,x)
+
+const onet=Symbol('123')
+const BigiInt=1122222222222111n
+
+console.log(BigiInt)
+console.log(onet)
+
+console.log(typeof BigiInt)
+console.log(typeof onet)
+
+
+const names=["Tej","shrey","veen"]
+
+let object ={name:"hithesh",age:21,House:"guthal"}
+
+const myfunc=function(){
+    console.log("Hello World")
+}
+console.log(object)
+console.log(names )
+console.log(myfunc())
